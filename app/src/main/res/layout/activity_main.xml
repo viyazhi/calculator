@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter a number"
+        android:inputType="number"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:id="@+id/NUMBER"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/division"
+        android:id="@+id/divideButton"
+        android:layout_toStartOf="@+id/NUMBER"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text ="@string/multiplication"
+        android:id="@+id/multiplyButton"
+        android:layout_toEndOf="@id/NUMBER"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addition"
+        android:id="@+id/addButton"
+        android:layout_above="@id/NUMBER"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtraction"
+        android:id="@+id/subtractButton"
+        android:layout_below="@id/NUMBER"
+        android:layout_bottom="@id/NUMBER"
+        android:layout_centerHorizontal="true"
+       android:layout_margin="20dp"/>
+
+
+
+
+</RelativeLayout>

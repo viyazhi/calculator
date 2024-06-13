@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="multiplicationButton" type="id">*</item>
+    <item name="divisionButton" type="id">/</item>
+    <item name="subtractionButton" type="id">-</item>
+    <item name="additionButton" type="id">+</item>
+    <item name="numberInput" type="id">2</item>
+    <item name="addButton" type="id">+</item>
+    <item name="subtractButton" type="id">-</item>
+    <item name="divideButton" type="id">/</item>
+</resources>
